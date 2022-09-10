@@ -21,6 +21,7 @@
 \*---------------*/
 
 .plano__artigo {
+	position: relative;
  	border: 1px solid yellow;
  	padding: 0 10px 10px;
  	margin-bottom: 100px;
@@ -28,18 +29,29 @@
  	font-size: 0.875rem;
 }
 
+.plano--mais-popular::after {
+position: absolute;
+top: -20px;
+left: -10px;
 
-/*---------------*\
-      PLANO
-\*---------------*/
+padding: 0 10px;
+
+background-color: #c20;
+color: #FFF;
+
+font-size: 0.8142em;
+line-height: 2.5;
+
+content: "MAIS POPULAR";
+}
 
 
-.plano__cabecalho {
+	.plano__cabecalho {
 	padding: 10px;
 	border: 1px solid yellow;
 
 	
-}
+	}
 
 	.plano__cabecalho {
 		/* posicionamento */
