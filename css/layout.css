@@ -31,27 +31,30 @@
 }
 
 .layout-depoimento {
-	margin: -90px;
+	margin: 0;
+	padding-bottom: 50px;
 
 
 	background-color: #e7e7e7;
 }
 
+.layout-depoimento2 {
+	padding: 50px 0;
+	border-top: 1px solid #7ab55c;;
+	
+	background-color: #e7e7e7;
+	text-align: center;
+
+
+}
+
 .layout-rodape {
 	
 	padding:  40px 0;
-	margin: -90px;
+	margin: -90px 0;
 
 	background-color: #414141;
 
 	color: #fff;
 	text-align: center;
-}
-
-
-
-.layout-rodape {
-	position: "absolute";
-	bottom: 0;
-	left: 0;
 }
