@@ -115,7 +115,7 @@
 	background-color: #127d00;
 	color: white;
 	
-
+	line-height: normal;
 	text-decoration: none;
 	font-size: 1em;
 }
@@ -266,4 +266,70 @@
 
 
 
+/*---------------*\
+    NAVEGAÇÃO
+\*---------------*/
+
+.navegacao {
+
+}
+
+	.navegacao__menu {
+		float: right;
+	}
+
+
+
+/*---------------*\
+  BOTAO-CHAVEADOR
+\*---------------*/
+
+.botao-chaveador {
+	width: 24px;
+	height: 24px;
+	border: 0;
+
+	
+	background: none;
+	background-image: url("../imagens/bars.png") ;
+}
+
+	@media(min-width: 992px) {
+		.botao-chaveador {
+			display: none;
+		}
+	}
+
+
+/*---------------*\
+       MENU
+\*---------------*/
+
+.menu { 
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 200px;
+
+	padding: 20px;
+	margin: 0;
+	
+
+	border-right: 1px solid yellowgreen;
+	background-color: #bebebe;
+
+	font-size: 1rem;
+	list-style: none;
+}
+
+	.menu__item {
+		display: block;
+
+		line-height: 3.2;
+	}
+
+	.menu__item--botao {
+		margin-top: 20px;
+	}
 

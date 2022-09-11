@@ -1,13 +1,9 @@
 .layout-cabecalho {
-	height: 120px;
+	height: 100px;
+	line-height: 110px;
 	
 
 	background-color: green
-}
-
-
-.layout-cabecalho img {
-	margin-top: 12px;
 }
 
 
@@ -53,7 +49,7 @@
 	padding:  40px 0;
 	margin: -90px 0;
 
-	background-color: green;
+	background-color: rgb(53, 53, 53);
 
 	color: #fff;
 	text-align: center;
