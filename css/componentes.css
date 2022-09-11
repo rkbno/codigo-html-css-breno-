@@ -27,6 +27,8 @@
  	margin: 100px 0;
 
  	font-size: 0.875rem;
+
+	background-color: #FFF;
 }
 
 	.plano--mais-popular::after {
@@ -95,6 +97,8 @@
 
 	.plano__rodape {
 	   	text-align: center;
+
+		
 	}
 
 
@@ -223,11 +227,24 @@
 
 
 	.depoimento > blockquote {
+		position: relative;
 		margin: 0;
 		padding: 60px;
 
 		text-align: center;
 		font-size: 1em;
+	}
+
+	.depoimento > blockquote::before {
+		position: absolute;
+		left: 0;
+		top: -0.1em;
+
+		color: #bebebe;
+
+		font-size: 6em;
+
+		content: "\201c";
 	}
 
 
