@@ -271,11 +271,16 @@
 \*---------------*/
 
 .navegacao {
+	
+}
 
+.navegacao--assinatura {
+	text-align: center;
 }
 
 	.navegacao__menu {
 		float: right;
+		
 	}
 
 
