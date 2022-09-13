@@ -1,6 +1,8 @@
-var alternaddpr = document.querySelector('.botao-chaveador');
+
+var alternador = document.querySelector('.js-chaveador');
 
 alternador.onclick = function() {
-    alert("clicou no botao");
+    var menu = document.querySelector('.js-menu');
+    menu.classList.toggle('menu--exibindo');
 }
 
