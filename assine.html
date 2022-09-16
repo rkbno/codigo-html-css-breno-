@@ -32,13 +32,76 @@
 
                     <div class="grupo-entrada">
                     <label for="razao-social">Razão Social</label>
-                    <input id="razao-social" type="text" class="campo">
+                    <input id="razao-social" type="text" name="razaosocial" class="campo" required>
+                    </div>
+
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cnpj">CNPJ</label>
+                            <input id="cnpj" type="text" name="cnpj" class="campo" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="data-nascimento">Data de fundação</label>
+                            <input id="data-nascimento" type="date" name="datanascimento" class="campo" required>
+                        </div>
+                    </div>
+                </div>
+                    <div class="grupo-entrada">
+                        <label for="responsavel">Responsável</label>
+                        <input ida="responsavel" type="text" name="responsavel" class="campo" required>
                     </div>
 
                     <div class="grupo-entrada">
-                        <label for="cnpj">CNPJ</label>
-                        <input id="cnpj" type="text" class="campo">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" class="campo" required>
                     </div>
+
+
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="estado">Estado</label>
+                            <select id="estado" name="estado" class="campo">
+                                <option>Selecione</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="CE">Ceará</option>
+                            </select>    
+                        </div>
+                    </div>    
+                    <div class="col-sm-3">
+                        <div class="grupo-entrada">
+                            <label for="cidade">Cidade</label>
+                            <select id="cidade" name="cidade" class="campo">
+                                <option>Selecione</option>
+                                <option value="1">Uberlândia</option>
+                                <option value="2">São Paulo</option>
+                                <option value="3">Fortaleza</option>
+                            </select>    
+                        </div>
+                    </div>
+                </div>
+
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="grupo-entrada">
+                                <label for="senha">Senha</label>
+                                <input id="senha" type="password" class="campo" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="grupo-entrada">
+                                <label for="confirmar-senha">Confirme a senha</label>
+                                <input id="confirmar-senha" type="password" class="campo" required>
+                            </div>
+                        </div>
+                    </div>
+
                     <div style="text-align: center">
                     <input type="submit" value="Assinar BTFinance" class="assinar--grupo  botao  botao--principal">
                     </div>

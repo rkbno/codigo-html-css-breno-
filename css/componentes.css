@@ -277,6 +277,10 @@
 
 .navegacao--assinatura {
 	text-align: center;
+	border-bottom: 1px solid #fff;
+	background-color: #FFF;
+
+	
 }
 
 	.navegacao__menu {
@@ -380,6 +384,7 @@
 .titulo-formulario { 
 	margin: 0;
 	margin-bottom: 40px;
+	margin-top: 50px;
 
 	border-bottom: 1px solid #ccc;
 
@@ -403,7 +408,7 @@
 		
 		display: block;
 
-		font-size: 1.4em;
+		font-size: 1.8em;
 		font-weight: bold;
 	}
 
@@ -416,6 +421,15 @@
 .campo {
 	display: block;
 	width: 100%;
+	height: 2.5em;
+
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+	background-color: #fff;
+
+	font-size: 1rem;
 }
 
 
